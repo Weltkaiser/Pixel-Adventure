@@ -35,6 +35,8 @@ int main(){
 
     Player player;
 
+    player.setGraphics(sf::Color::Red, charSize)
+
     sf::RectangleShape ground; // Ground
     ground.setSize( groundSize );
     ground.setOutlineThickness(3);

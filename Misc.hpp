@@ -11,12 +11,9 @@
 
 const int gameWidth = 800;
 const int gameHeight = 600;
-
 const float gravity(5.f);
-
 const std::string Title = "Pixel Adventure";
-
 const sf::Vector2f basePosVect( 0, -gameHeight );
-
+const sf::Vector2f charSize( 25, 100 );
 
 #endif // MISC_HPP

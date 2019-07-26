@@ -14,6 +14,7 @@ void Player::setGraphics(sf::Color color, sf::Vector2f dimensions){
     player.setOutlineThickness(3);
     player.setOutlineColor(color);
     player.setFillColor(color);
+    Player::dimensions = dimensions;
 
 }
 
