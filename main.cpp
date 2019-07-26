@@ -15,7 +15,7 @@ int main(){
 
 
 
-//    sf::Vector2f charSize(25, 100); // Character size
+//  sf::Vector2f charSize(25, 100); // Character size
     sf::Vector2f groundSize(gameWidth, 30);
     sf::Vector2f baseCoordinates( 0, -gameHeight );
 
