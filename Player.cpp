@@ -20,7 +20,7 @@ void Player::setGraphics(sf::Color color, sf::Vector2f dimensions){
 
 void Player::updatePos(){
 
-    Player::velocity.y += gravity;
+    Player::velocity.y -= gravity;
     Player::velocity += Player::acceleration;
     Player::pos += Player::velocity;
 

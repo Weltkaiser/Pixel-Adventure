@@ -57,6 +57,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Misc.hpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
