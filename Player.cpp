@@ -18,9 +18,37 @@ void Player::setGraphics(sf::Color color, sf::Vector2f dimensions){
 
 }
 
+void Player::jump(){
+
+    if (!Player::inAir){
+
+        for (int k = 100 ; k > 0 ; k--){
+
+            Player::player.setPosition(sf::Vector2f( Player::getPos().x , Player::getPos().y + 1 ));
+            Player::inAir = 1;
+            sf::sleep( sf::milliseconds(10) );
+
+        } for (int k = 100 ; k > 0 ; k--){
+
+            Player::player.setPosition(sf::Vector2f( Player::getPos().x , Player::getPos().y - 1 ));
+            sf::sleep( sf::milliseconds(10) );
+
+        }
+
+        if (Player::pos.y < (basePosVect.y + 30)){
+
+            Player::pos.y = basePosVect.y + 30;
+            Player::updatePos();
+
+        }
+
+        Player::inAir = 0;
+
+    }
+}
+
 void Player::updatePos(){
 
-    Player::velocity.y -= gravity;
     Player::velocity += Player::acceleration;
     Player::pos += Player::velocity;
 

@@ -25,6 +25,7 @@ public:
     sf::Vector2f getPos();
     void createPlayer(sf::Vector2f origin);
     sf::RectangleShape returnPlayer();
+    void jump();
 
 private:
     sf::RectangleShape player;
@@ -33,6 +34,8 @@ private:
     sf::Vector2f acceleration = sf::Vector2f(0.f, 0.f);
     sf::Vector2f dimensions;
     sf::Vector2f origin;
+    const int jumpVel = 1;
+    bool inAir = 0;
 
 };
 

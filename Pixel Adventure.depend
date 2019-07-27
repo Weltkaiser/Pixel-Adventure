@@ -560,3 +560,59 @@
 	<ctime>
 	<cstdlib>
 
+1564238583 source:c:\users\nyzoka\documents\github\pixel-adventure\main.cpp
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<cmath>
+	<ctime>
+	<cstdlib>
+	"Player.hpp"
+	"Misc.hpp"
+
+1564238571 c:\users\nyzoka\documents\github\pixel-adventure\player.hpp
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<cmath>
+	<ctime>
+	<cstdlib>
+	"Misc.hpp"
+
+1564180917 c:\users\nyzoka\documents\github\pixel-adventure\misc.hpp
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<cmath>
+	<ctime>
+	<cstdlib>
+
+1564239064 source:c:\users\nyzoka\documents\github\pixel-adventure\player.cpp
+	"Misc.hpp"
+	"Player.hpp"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<cmath>
+	<ctime>
+	<cstdlib>
+
+1564248734 source:c:\users\nyzoka\documents\github\pixel-adventure\test.cpp
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+
+1564239715 c:\users\nyzoka\documents\github\pixel-adventure\player2.hpp
+	<iostream>
+	<SFML\Graphics.hpp>
+	"Coin2.hpp"
+
+1564239672 c:\users\nyzoka\documents\github\pixel-adventure\coin2.hpp
+	<iostream>
+	<SFML\Graphics.hpp>
+

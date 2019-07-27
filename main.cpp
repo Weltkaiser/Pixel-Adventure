@@ -17,7 +17,7 @@ int main(){
 
 //  sf::Vector2f charSize(25, 100); // Character size
     sf::Vector2f groundSize(gameWidth, 30);
-    sf::Vector2f baseCoordinates( 0, -gameHeight );
+    //sf::Vector2f baseCoordinates( 0, -gameHeight );
 
 
     sf::RenderWindow window(sf::VideoMode(gameWidth, gameHeight, 32), Title,
@@ -35,7 +35,8 @@ int main(){
 
     Player player;
 
-    player.setGraphics(sf::Color::Red, charSize)
+    player.setGraphics(sf::Color::Red, charSize);
+    player.createPlayer(sf::Vector2f(basePosVect + sf::Vector2f( 0, charSize.y + groundSize.y )));
 
     sf::RectangleShape ground; // Ground
     ground.setSize( groundSize );
@@ -63,11 +64,17 @@ int main(){
 
             }
 
+            if ((event.type == sf::Event::KeyPressed) && (event.key.code == sf::Keyboard::Space)){
+
+                player.setPos(  );
+
+            }
+
         }
 
         window.clear(sf::Color(0, 100, 250));
 
-        //window.draw(character);
+        window.draw( player.returnPlayer() );
         window.draw(ground);
         window.display();
 
