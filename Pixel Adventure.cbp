@@ -5,6 +5,7 @@
 		<Option title="Pixel Adventure" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option virtualFolders="master\;vc-build-test\;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/Pixel Adventure" prefix_auto="1" extension_auto="1" />
@@ -57,10 +58,42 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Misc.hpp" />
-		<Unit filename="Player.cpp" />
-		<Unit filename="Player.hpp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="../vc-build-test/Game.cpp">
+			<Option virtualFolder="vc-build-test/" />
+		</Unit>
+		<Unit filename="../vc-build-test/Game.hpp">
+			<Option virtualFolder="vc-build-test/" />
+		</Unit>
+		<Unit filename="../vc-build-test/Player.cpp">
+			<Option virtualFolder="vc-build-test/" />
+		</Unit>
+		<Unit filename="../vc-build-test/Player.hpp">
+			<Option virtualFolder="vc-build-test/" />
+		</Unit>
+		<Unit filename="../vc-build-test/all_libs.hpp">
+			<Option virtualFolder="vc-build-test/" />
+		</Unit>
+		<Unit filename="../vc-build-test/main.cpp">
+			<Option virtualFolder="vc-build-test/" />
+		</Unit>
+		<Unit filename="../vc-build-test/test.cpp">
+			<Option virtualFolder="vc-build-test/" />
+		</Unit>
+		<Unit filename="Misc.hpp">
+			<Option virtualFolder="master/" />
+		</Unit>
+		<Unit filename="Player.cpp">
+			<Option virtualFolder="master/" />
+		</Unit>
+		<Unit filename="Player.hpp">
+			<Option virtualFolder="master/" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option virtualFolder="master/" />
+		</Unit>
+		<Unit filename="test.cpp">
+			<Option virtualFolder="master/" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
