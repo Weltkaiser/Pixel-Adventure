@@ -1,2 +1,2 @@
 # Pixel-Adventure
-General Platform Game (Omega Games)
+General Platform Game
